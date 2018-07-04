@@ -5,33 +5,102 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_AboutUs"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="AboutUs" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_Gallery"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Gallery" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_Services"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Services" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_Products"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_DetailsPage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Details Page" />
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_Add_Product_Job"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Add Product/Job" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_ContactUs"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="ContactUs" />
+            <item
+                android:id="@+id/nav_Live_Chat"
+                android:icon="@drawable/ic_menu_send"
+                android:title="LiveChat" />
+            <item
+                android:id="@+id/nav_Login_Signup"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Login/Signup" />
+            <item
+                android:id="@+id/nav_Filters"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Filters" />
+
+            <item
+                android:id="@+id/nav_Search"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Search" />
+            <item
+                android:id="@+id/nav_Rating"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rating" />
+
+            <item
+                android:id="@+id/nav_Favorites"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Favorites" />
+
+            <item
+                android:id="@+id/nav_MediaPlayer"
+                android:icon="@drawable/ic_menu_send"
+                android:title="MediaPlayer" />
+            <item
+                android:id="@+id/nav_MediaPlayer_Download"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Media Player Download" />
+            <item
+                android:id="@+id/nav_Call_Tone_Ringtone"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Call Tone / Ringtone" />
+            <item
+                android:id="@+id/nav_News"
+                android:icon="@drawable/ic_menu_send"
+                android:title="News" />
+
+            <item
+                android:id="@+id/nav_Share_News_SocialMedia"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Share SocialMedia" />
+
+
+            <item
+                android:id="@+id/nav_Language"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Language" />
+
+            <item
+                android:id="@+id/nav_YouTube"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Youtube" />
+
+            <item
+                android:id="@+id/nav_Complains_and_Suggestions"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Complains_and_Suggestions" />
+
         </menu>
     </item>
 
