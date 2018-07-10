@@ -15,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.sweelam.featurestemplateapp.Gallery.GalleryActivityTry;
+import com.example.sweelam.featurestemplateapp.ServiceProducts.ProductActivity;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -83,15 +84,19 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         Intent intent;
+
         if (id == R.id.nav_AboutUs) {
             // Handle the camera action
         } else if (id == R.id.nav_Gallery) {
             intent = new Intent(this, GalleryActivityTry.class);
             startActivity(intent);
 
-        } /*else if (id == R.id.nav_slideshow) {
+        }else if (id == R.id.nav_Products) {
 
-        } else if (id == R.id.nav_manage) {
+            intent = new Intent(this, ProductActivity.class);
+            startActivity(intent);
+
+        } /* else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
 

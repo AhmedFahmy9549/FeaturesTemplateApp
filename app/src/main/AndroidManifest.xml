@@ -29,6 +29,10 @@
         </activity>
         <activity android:name=".Gallery.GalleryActivityTry"/>
         <activity android:name=".Gallery.DetailsGalleryActivity"/>
+        <activity android:name=".ServiceProducts.ProductActivity"/>
+        <activity android:name=".ServiceProducts.DetailsProduct"/>
+
+
     </application>
 
 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F2F2F2"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:id="@+id/DetailsBackBtn"
+            android:layout_marginLeft="30dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_back_arrow"
+            />
+        <TextView
+            android:id="@+id/DetailsToolBarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duck Tales"
+            android:textColor="#1D4793"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="290dp"
+        android:layout_height="200dp"
+        android:id="@+id/DetailsIMG"
+
+        />
+    <TextView
+        android:id="@+id/DetailsTitle"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:text="duck tales "
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:background="@color/DetailsColor"
+
+        />
+    <ScrollView
+        android:layout_width="290dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/DetailsDesc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:text="duasufausfuasfuasufausfuasfuasufasufausf"
+            android:textColor="@android:color/secondary_text_light"
+            android:padding="10dp"
+            />
+    </ScrollView>
+
+
+
+</LinearLayout>
